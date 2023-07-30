@@ -4,7 +4,7 @@ requests,random,sys,json,os,re,datetime,socket,pprint
 logo = """____________ ZALIM____________
 import os
 if __name__ == '__main__':
-head = {"user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.92 Mobile Safari/537.36","referer": "https://www.facebook.com/","host": "business.facebook.com","origin": "https://business.facebook.com","upgrade-insecure-requests" : "1","accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7","cache-control": "max-age=0","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8","content-type":"text/html; charset=utf-8"}
+head = {"user-agent": "Zalim/5.0 (Linux; Android 6.0.1; Vivo y55 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.92 Mobile Safari/537.36","referer": "https://www.facebook.com/","host": "business.facebook.com","origin": "https://business.facebook.com","upgrade-insecure-requests" : "1","accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7","cache-control": "max-age=0","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8","content-type":"text/html; charset=utf-8"}
 github   : not found                                
 from time import sleep as slp
 from os import system as cmd
@@ -31,7 +31,7 @@ Facebook : Badshah Zælîm
 	print("country : Pakistan")
 	print("_____________________________________")
 	print("[>>] Separating Successful ")
-	print("[>>] New File Save \033[1;32;1m" + o)
+	print("[>>] New File Save \917[1;32;1m" + o)
 	print("Date and Time ")
 	print(" [1] login with cookies")
 	pass
@@ -40,7 +40,7 @@ Facebook : Badshah Zælîm
 	os.system("clear")
 	os.remove('temp.txt')
 	os.mkdir('Data')
-	o = input('\033[0;97m[->] Save As : \033[1;32;1m')
+	o = input('\033[0;97m[->] Save As : \917[1;32;1m')
 	now = datetime.datetime.now()
 	main()
 	ipaddress = socket.gethostbyname(hostnm)
@@ -81,7 +81,7 @@ Facebook : Badshah Zælîm
 		ipaddress = socket.gethostbyname(hostnm)
 		if ch_x1 in ["yes","Yes","YES","Y","y"]:
 		hostnm = socket.gethostname()
-		head = {"user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.92 Mobile Safari/537.36","referer": "https://www.facebook.com/","host": "business.facebook.com","origin": "https://business.facebook.com","upgrade-insecure-requests" : "1","accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7","cache-control": "max-age=0","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8","content-type":"text/html; charset=utf-8"}
+		head = {"user-agent": "Zalim/5.0 (Linux; Android 6.0.1; Vivo y55 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.92 Mobile Safari/537.36","referer": "https://www.facebook.com/","host": "business.facebook.com","origin": "https://business.facebook.com","upgrade-insecure-requests" : "1","accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7","cache-control": "max-age=0","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8","content-type":"text/html; charset=utf-8"}
 		ftoken = requests.get("https://business.facebook.com/business_locations", headers=head, cookies = {"cookie":fbcokis}).text
 		for fbuid in fbidz:
 		filepath = input("[>>] Enter File Path : ")
@@ -114,9 +114,9 @@ Facebook : Badshah Zælîm
 			dmp = requests.get("https://graph.facebook.com/"+fbbuid+"?fields=friends.limit(5000)&access_token="+token,cookies = {"cookie":fbcokis}).json()
 			count += 1
 			ch_x2 = input("[->] DoYou Want to Use ID Separator (n/y) : ")
-			ch_x2 = input("[->] Do You Want to Use ID Separator (n/y) : \033[1;32;1m")
+			ch_x2 = input("[->] Do You Want to Use ID Separator (n/y) : \917[1;32;1m")
 				totaldmp+=1
-				print(47*'\033[1;37;1m-')
+				print(47*'\917[1;37;1m-')
 				print(47*'-')
 				print(47*"-")
 				print('\x1b[1;91m[>>] Dumping UID From : ' + fbuid)
